@@ -78,3 +78,5 @@ def step_impl(context):
         assert False, "Se esperaba una excepción"
     except ValueError as e:
         assert str(e) == "El monto y el porcentaje no pueden ser negativos."
+        
+#Comentario de prueba
