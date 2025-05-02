@@ -39,4 +39,4 @@ jobs:
 
     steps:
       - name: Simular despliegue en entorno de pruebas
-        run: echo "✅ Aplicación desplegada en entorno de pruebas (simulado)"
+        run: echo "Aplicación desplegada en entorno de pruebas (simulado)"
