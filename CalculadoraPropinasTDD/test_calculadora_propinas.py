@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from calculadora_propinas import calcular_propina
 
 def test_propina_10_por_ciento():
